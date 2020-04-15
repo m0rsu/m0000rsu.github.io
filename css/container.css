@@ -8,3 +8,7 @@
 .container--smaller {
     width: 940px;
 }
+
+.container--opacity {
+    opacity: 2;
+}
