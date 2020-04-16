@@ -9,6 +9,6 @@
     width: 940px;
 }
 
-.container--opacity {
-    opacity: 2;
+.container--larger {
+    width: 1600px;
 }

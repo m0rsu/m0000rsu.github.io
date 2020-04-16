@@ -61,12 +61,28 @@
   border: 2px ridge rgb(133, 30, 30);
 }
 
+@media (max-width: 1366px) {
+  .news-display-container:hover {
+    border: 2px ridge rgb(69, 68, 68);
+  }
+}
+
 .news-content {
   margin-left: auto;
   margin-right: auto;
 }
 .news-content {
   max-width: 980px;
+}
+
+@media (max-width: 768px) {
+  .news-content {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .news-content {
+    max-width: 768px;
+  }
 }
 
 .news-display-topleft {

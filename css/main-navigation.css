@@ -14,9 +14,12 @@
     rgba(93, 93, 93, 1) 100%
   );
   padding: 20px;
-  z-index: 1;
+  z-index: 111;
   border-bottom: 2px ridge #ccc;
 }
+
+
+
 
 .main-navigation__logo-image {
   width: 180px;
