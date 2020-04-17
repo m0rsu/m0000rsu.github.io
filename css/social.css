@@ -1,0 +1,73 @@
+section .social {
+  text-align: center;
+  transform: translatez(0);
+  margin-left: -35px;
+  margin-top: 50px;
+  opacity: 1;
+}
+
+@media (max-width: 1366px) {
+  section .social {
+    text-align: center;
+    transform: translatez(0);
+    margin-left: 20;
+    margin-top: 0;
+  }
+}
+section .social .social__header {
+  margin: 0 auto;
+  margin-top: -70px;
+  color: #666;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+section .social li {
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+section .social li div {
+  width: 120px;
+  height: 120px;
+  color: #74d4b3;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 120px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+section .social li a {
+  color: rgba(250, 1, 1, 0.637);
+}
+
+section .social li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+
+@media (max-width: 1366px) {
+  section .social li div:hover {
+    transform: none;
+    border-radius: unset;
+  }
+}
+
+section .social li span {
+  width: 120px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: #777;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+@media (max-width: 1366px) {
+  section .social li span {
+    padding: 0;
+  }
+}
