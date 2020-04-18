@@ -69,6 +69,6 @@ section .social li span {
 @media (max-width: 1366px) {
   section .social li span {
     padding: 0;
-      overflow: hidden;
+    overflow: hidden;
   }
 }
