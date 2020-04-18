@@ -78,7 +78,7 @@
 
 @media (max-width: 991px) {
   .main-navigation__menu {
-    position: fixed;
+    position: fixed!important;
     display: block;
     top: 0;
     left: 0;

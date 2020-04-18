@@ -24,3 +24,7 @@
 .main-banner__button:hover {
     background: rgba(0, 0, 0, 0.8);
 }
+
+.main-banner--margin {
+    margin-bottom: 0;
+}

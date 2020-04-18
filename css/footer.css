@@ -8,6 +8,10 @@
   max-height: 200px;
 }
 
+.footer-register {
+  max-height: 300px;
+}
+
 .footer__newsletter {
   width: 100%;
   display: block;
@@ -211,10 +215,10 @@
     .footer__newsletter {
         width: 100%;
         display: block;
-        padding 0;
+        padding: 0;
         text-align: left;
-
-      }
+    }
+      
       .footer-note {
         margin-bottom: 10px;
         text-align: left;
