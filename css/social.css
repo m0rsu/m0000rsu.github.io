@@ -64,11 +64,11 @@ section .social li span {
   text-transform: uppercase;
   font-size: 1.2em;
   text-align: center;
-  overflow: hidden;
 }
 
 @media (max-width: 1366px) {
   section .social li span {
     padding: 0;
+      overflow: hidden;
   }
 }
